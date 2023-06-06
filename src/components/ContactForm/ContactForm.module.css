@@ -1,0 +1,31 @@
+.contact_form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  border: 2px solid darkgray;
+}
+
+.contact_form_input {
+  display: block;
+  border: 2px solid blue;
+}
+
+.contact_form_buttom {
+  background-color: rgb(205, 237, 238);
+  border: 2px solid blue;
+  border-radius: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+
+.contact_form_buttom:hover {
+  background-color: rgb(222, 237, 238);
+}
+
+.contact_form_buttom:active {
+  background-color: rgb(28, 82, 86);
+  color: aliceblue;
+}
